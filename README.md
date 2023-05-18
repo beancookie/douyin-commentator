@@ -1,6 +1,4 @@
-# 抖音采集
-
-> [开源不易，若能帮助到您，可以请作者喝杯咖啡](#请作者喝杯咖啡)
+# 抖音特约评论员
 
 `playwright`爬虫（基于EDGE/Chrome浏览器） + `Aria2`下载
 
@@ -16,10 +14,7 @@
 
 支持输入文件路径批量操作（同一类型，一行一个目标地址）
 
-账号主页作品支持增量采集
-
-## 项目地址
-[https://github.com/erma0/douyin](https://github.com/erma0/douyin)
+账号主页作品支持增量采
 
 ## 声明
 > 此程序为学习playwright爬虫及Python中调用Aria2的案例，仅供参考，请勿用于非法用途。
@@ -27,18 +22,6 @@
 测试环境：`Win10/11 x64` + `Python3.8/11`
 
 **功能未全部测试，有问题请提交issue，也可加Q群`738029092`反馈**
-
-
-## 使用
-1. Windows只需下载 [releases](https://github.com/erma0/douyin/releases) 或 `dist`目录中的两个文件
-```
-douyin.exe
-aria2c.exe
-```
-Linux或macOS请从[官方地址下载对应的Aria2](https://github.com/aria2/aria2/releases)，然后运行源码或自行编译
-
-2. 在程序所在目录打开命令行输入命令，或者Windows系统可以直接双击打开douyin.exe后根据提示输入目标地址
-
 - 使用帮助
 
 ```
@@ -137,12 +120,3 @@ pyinstaller -F ./douyin.py -i ./ico.ico
 ```
 
 **不能upx压缩，否则playwright无法启动**
-
-
-## 请作者喝杯咖啡
----
-
-![支付宝微信收款][1]
-
-  [1]: https://erma0.gitee.io/images/qrcode/shouqianma.png
-
